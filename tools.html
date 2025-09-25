@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="53d42ca7-92c2-422d-8180-912e4ff7c9be" type="text/javascript" async></script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VGKQRNQ0LS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VGKQRNQ0LS');
+</script>
+  <meta name="google-site-verification" content="I8tG7YB5J5wD-sEHAzciP4LQu8400tHC6RikJkrNYz4" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Baby Tools & Guides • BabyCareWorld</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="baby, cost calculator, due date, formula feeding, growth chart">
+
+  <!-- Favicons -->
+  <link href="assets/favicon.png" rel="icon">
+  <link href="assets/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/aos.css" rel="stylesheet">
+  <link href="assets/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/main.css" rel="stylesheet">
+
+  <style>
+    /* Styles for the calculators & cards inside your site */
+    .baby-tools {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .baby-tools .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 6px 18px rgba(6,20,40,0.06);
+    }
+    .baby-tools h2 {
+      margin-top: 0;
+      color: #0b8fd1;
+    }
+    .baby-tools label {
+      display: block;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+    .baby-tools input[type="number"], .baby-tools input[type="date"] {
+      width: 100%;
+      padding: 0.5rem;
+      border-radius: 8px;
+      border: 1px solid #d6e6f2;
+      margin-top: 0.5rem;
+    }
+    .baby-tools .btn-calc {
+      background: #0b8fd1;
+      color: #fff;
+      border: none;
+      padding: 0.75rem 1.25rem;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .baby-tools pre {
+      background: #f0f6fb;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow: auto;
+    }
+    .baby-tools .small {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    @media (max-width: 768px) {
+      .baby-tools {
+        padding: 0 0.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body class="blog-details-page">
+
+  <header id="header" class="header position-relative">
+    <div class="container-fluid container-xl position-relative">
+
+      <div class="top-row d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-end">
+          <h1 class="sitename">BabyCareWorld</h1><span>.</span>
+        </a>
+
+        <div class="d-flex align-items-center">
+
+          <form class="search-form ms-4">
+            <input type="text" placeholder="Search..." class="form-control">
+            <button type="submit" class="btn"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="nav-wrap">
+      <div class="container d-flex justify-content-center position-relative">
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Pregnancy.html">Pregnancy</a></li>
+            <li><a href="GettingPregnant.html">Getting Pregnant</a></li>
+            <li><a href="health-daily-care.html">Health</a></li>
+            <li><a href="Family.html">Family</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="main">
+    <div class="baby-tools">
+      <h2>Baby Tools & Guides — First Year</h2>
+
+      <!-- Baby Costs Calculator -->
+      <div class="card" id="costs">
+        <h3>Baby Costs Calculator — Estimate first-year spending</h3>
+        <p class="small">Enter realistic values (local currency). This estimates essentials + recurring costs for the first 12 months.</p>
+        <div>
+          <label>One-time gear (crib, stroller, car seat, etc.)</label>
+          <input id="gear" type="number" min="0" value="500" />
+
+          <label>Diapers (cost per diaper)</label>
+          <input id="diaper_cost" type="number" min="0" value="0.2" />
+
+          <label>Average diapers per day</label>
+          <input id="diapers_per_day" type="number" min="0" value="6" />
+
+          <label>Formula (monthly cost; 0 if breastfeeding)</label>
+          <input id="formula_monthly" type="number" min="0" value="80" />
+
+          <label>Childcare / daycare (monthly)</label>
+          <input id="childcare_monthly" type="number" min="0" value="400" />
+
+          <label>Other monthly costs (clothes, toiletries, transport)</label>
+          <input id="other_monthly" type="number" min="0" value="50" />
+
+          <button class="btn-calc" onclick="calculateCosts()">Calculate first-year cost</button>
+
+          <h4>Estimate</h4>
+          <pre id="costs_output">Total first-year cost will appear here.</pre>
+        </div>
+      </div>
+
+      <!-- Due Date Calculator -->
+      <div class="card" id="due">
+        <h3>Due Date Calculator</h3>
+        <p class="small">Use your <strong>last menstrual period (LMP)</strong> or the known conception date. Results are estimates — ultrasound is more accurate.</p>
+        <div>
+          <label>First day of your last period (LMP)</label>
+          <input id="lmp" type="date" />
+
+          <label>Or, date of conception (optional)</label>
+          <input id="conception" type="date" />
+
+          <button class="btn-calc" onclick="calculateDueDate()">Calculate Estimated Due Date (EDD)</button>
+
+          <h4>Result</h4>
+          <pre id="due_output">Your EDD will appear here.</pre>
+          <div class="small">Notes: LMP method adds 280 days; conception method adds ~266 days. See your care provider for confirmation.</div>
+        </div>
+      </div>
+
+      <!-- 12 Formula Feeding Tips -->
+      <div class="card" id="formula">
+        <h3>12 Practical Tips for Formula Feeding</h3>
+        <p class="small">Formula feeding can be a lifesaver. These tips help you keep feeding safe and smoother.</p>
+        <ol>
+          <li>Always follow manufacturer preparation instructions exactly.</li>
+          <li>Wash hands and sterilize bottles and nipples as recommended.</li>
+          <li>Use the correct water temperature for mixing — many providers recommend warm (check package instructions).</li>
+          <li>Check formula expiration and storage guidance on the label.</li>
+          <li>Prepare single feeds when possible; discard leftover formula after 1 hour at room temperature.</li>
+          <li>Hold baby semi-upright to reduce choking and ear infections; burp during and after feedings.</li>
+          <li>Watch hunger cues — rooting, hands to mouth — rather than a strict schedule.</li>
+          <li>Track intake and wet/dirty diapers for the pediatrician to ensure adequate feeding.</li>
+          <li>If introducing bottle to breastfed baby, wait and follow paced-bottle feeding to avoid nipple confusion.</li>
+          <li>Rotate formulas only under pediatrician guidance (for allergy/sensitivity reasons).</li>
+          <li>Keep an emergency formula supply during travel/illness.</li>
+          <li>Consult your pediatrician with concerns (weight, reflux, intolerance, dehydration).</li>
+        </ol>
+        <div class="small">For official guidance on preparation/storage/feeding, see health authorities.</div>
+      </div>
+
+      <!-- Child Growth Chart -->
+      <div class="card" id="growth">
+        <h3>Child Growth Charts — What they do & where to find them</h3>
+        <p>Growth charts are tools to track an infant’s weight, length, and head circumference over time. They help caregivers and clinicians spot patterns that may need assessment — but charts are part of a clinical picture, not a standalone diagnosis.</p>
+        <ul>
+          <li><strong>WHO growth standards</strong> — recommended for 0–59 months in many settings (international standard for optimal growth).</li>
+          <li><strong>CDC growth charts</strong> — widely used in the U.S.; includes downloadable clinical charts (PDFs).</li>
+        </ul>
+        <p class="small"><a href="https://www.cdc.gov/growthcharts/who-growth-charts.htm" target="_blank">CDC — WHO growth charts (info & downloads)</a></p>
+      </div>
+
+      <!-- BabyCenter Courses -->
+      <div class="card" id="courses">
+        <h3>BabyCenter Courses — Quick help from experts</h3>
+        <p>BabyCenter and similar resources offer on-demand courses and short expert videos covering common newborn challenges (sleep, feeding, emergency basics). They’re a good complement to professional care and local parenting classes.</p>
+        <div class="small">Look for courses taught by credentialed clinicians (ER doctors, pediatric sleep specialists) and check course dates/reviews before enrolling.</div>
+      </div>
+
+      <!-- Gender Predictor Chart -->
+      <div class="card" id="gender">
+        <h3>Gender Predictor Chart — Fun, but unproven</h3>
+        <p>The Chinese gender-prediction chart is an old lunar calendar method many people enjoy trying. Scientific studies show these predictor charts are not reliably more accurate than chance; the most reliable methods for determining sex are medical tests (ultrasound, cell-free DNA, CVS/amniocentesis when clinically needed).</p>
+        <div class="small">If you enjoy trying the chart for fun, make it clear to visitors that it is for entertainment only.</div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Baby</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Lusaka Zambia.</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+260 975 772 837</span></p>
+            <p><strong>Email:</strong> <span>DigitoBitstrading@outlook.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <!-- social icons if any -->
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="https://digitobits.site/">About us</a></li>
+            <li><a href="https://digitobits.site/Terms%20of%20Use.html">Terms of service</a></li>
+            <li><a href="https://digitobits.site">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Web Pages</h4>
+          <ul>
+            <li><a href="Pregnancy.html">Pregnancy</a></li>
+            <li><a href="GettingPregnant.html">Getting Pregnant</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="#">Category Section</a></li>
+            <li><a href="tools.html">Due Date Calculator</a></li>
+            <li><a href="feeding.html">BabyCenter Courses</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Information</h4>
+          <ul>
+            <li><a href="https://www.msdmanuals.com/professional/pediatrics/symptoms-in-infants-and-children/fever-in-infants-and-children">Children's Health</a></li>
+            <li><a href="https://pathways.org/track/milestones?ageRange=3%E2%80%936+Years">Baby milestone tracker</a></li>
+            <li><a href="https://www.greetingsisland.com/announcements/birth">Baby announcement/invitation</a></li>
+            <li><a href="Health.html">Your Body</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span id="year"></span> <strong class="px-1 sitename">BabyCareWorld</strong> All Rights Reserved</p>
+
+      <div class="credits">
+        Designed by <a href="">DigitoBits</a>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script src="assets/validate.js"></script>
+  <script src="assets/aos.js"></script>
+  <script src="assets/swiper-bundle.min.js"></script>
+  <script src="assets/purecounter_vanilla.js"></script>
+  <script src="assets/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/main.js"></script>
+
+  <script>
+    // JavaScript for calculators
+
+    function calculateCosts() {
+      const gear = parseFloat(document.getElementById('gear').value) || 0;
+      const diaper_cost = parseFloat(document.getElementById('diaper_cost').value) || 0;
+      const diapers_per_day = parseFloat(document.getElementById('diapers_per_day').value) || 0;
+      const formula_monthly = parseFloat(document.getElementById('formula_monthly').value) || 0;
+      const childcare_monthly = parseFloat(document.getElementById('childcare_monthly').value) || 0;
+      const other_monthly = parseFloat(document.getElementById('other_monthly').value) || 0;
+
+      const diapers_year = diaper_cost * diapers_per_day * 365;
+      const monthly_total = formula_monthly + childcare_monthly + other_monthly;
+      const recurring_year = monthly_total * 12;
+      const total_first_year = gear + diapers_year + recurring_year;
+
+      const output = `
+One-time gear: ${formatMoney(gear)}
+Diapers (year): ${formatMoney(diapers_year.toFixed(2))}
+Monthly recurring ×12: ${formatMoney(recurring_year.toFixed(2))}
+---------------------------------------
+Estimated total first-year cost: ${formatMoney(total_first_year.toFixed(2))}
+(Adjust values or include extras like medical costs, travel, or specialist equipment.)
+`;
+      document.getElementById('costs_output').innerText = output;
+    }
+
+    function calculateDueDate() {
+      const lmpVal = document.getElementById('lmp').value;
+      const concVal = document.getElementById('conception').value;
+      let result = 'Please enter LMP or conception date.';
+
+      if (concVal) {
+        const conc = new Date(concVal);
+        const edd = addDays(conc, 266);
+        result = `Using conception date: Estimated Due Date (EDD) ≈ ${edd.toDateString()} (conception + 266 days).`;
+      } else if (lmpVal) {
+        const lmp = new Date(lmpVal);
+        const edd = addDays(lmp, 280);
+        result = `Using LMP: Estimated Due Date (EDD) ≈ ${edd.toDateString()} (LMP + 280 days).`;
+      }
+      document.getElementById('due_output').innerText = result;
+    }
+
+    function addDays(d, days) {
+      const dt = new Date(d);
+      dt.setDate(dt.getDate() + days);
+      return dt;
+    }
+
+    function formatMoney(v) {
+      const n = parseFloat(v);
+      return n.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+
+    // initialize
+    calculateCosts();
+    document.getElementById('due_output').innerText = 'Enter LMP or conception date and press Calculate.';
+  </script>
+
+</body>
+
+</html>
